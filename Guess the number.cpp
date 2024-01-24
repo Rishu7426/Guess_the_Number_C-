@@ -23,7 +23,7 @@ int main()
 
     while (true)
     {
-        cout << "computer will imagine a number from 0 to 6 and you have to guess it: " << endl;
+        cout << " Computer will imagine a number from 0 to 6 and you have to guess it! Enter a number: " << endl;
 
         cin >> num;
         int x = num;
@@ -43,7 +43,7 @@ int main()
             cout << " you loose! computer guessed "<< numrand << "." << endl;
         }
     }else 
-    cout<<"you entered wrong number! please select between 0 to 10"<<endl;
+    cout<<"you entered wrong number! please select between 0 to 6, or.................................................... press -1 to stop"<<endl;
     }
     system("pause");
     return 0;
